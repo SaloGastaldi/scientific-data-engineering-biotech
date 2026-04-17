@@ -1,0 +1,30 @@
+x = indep_vars
+xc = x**2
+y = dep_vars
+lm = linear_model.LinearRegression()
+#para el regresor x sólo
+datosxy = pd.DataFrame({'x': x, 'y': y})
+ajuste_x = lm.fit(datosxy[['x']], datosxy['y']) # ajusto el modelo
+y_ajuste_x = ajuste_x.predict(datosxy[['x']])
+#para el regresor x**2 sólo
+datos_xcuad_y = pd.DataFrame({'x': x, 'xc': xc, 'y': y})
+ajuste_xcuad = lm.fit(datos_xcuad_y[['xc']], datos_xcuad_y['y']) # ajusto el modelo
+y_ajuste_xcuad = ajuste_xcuad.predict(datos_xcuad_y[['xc']])
+##para el regresor x e x**2
+#regresores (en este caso múltiple serán x y x^2)
+X = np.concatenate((x.reshape(-1,1),xc.reshape(-1,1)),axis=1)
+datos_comb = pd.DataFrame({'x': x, 'xc': xc, 'y': y}) 
+#ahora x tiene dos valores x y x**2
+ajuste_comb = lm.fit(X, datos_comb.y)
+y_ajuste_comb = ajuste_comb.predict(X)
+#grafico los datos
+datosxy.plot.scatter('x','y', c = 'b', label = 'datos')
+plt.title('ajuste comparación sklearn')
+#grafico con regresor único x
+plt.plot(datosxy[['x']], y_ajuste_x, c = 'g', label = 'regresor x')
+#grafico con regresor único x**2
+plt.plot(datos_xcuad_y[['x']], y_ajuste_xcuad, c = 'r', label = 'regresor x**2')
+#grafico con regresor x e x**2
+plt.plot(datos_comb.x, y_ajuste_comb, c = 'y', label = 'regresor x y x**2')
+plt.legend()
+plt.show() 
