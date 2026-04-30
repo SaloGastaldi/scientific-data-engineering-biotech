@@ -1,33 +1,109 @@
-# Scientific Python & Data Engineering Portfolio 🧬💻
+# 🧬 Scientific Computing & Data Engineering for Biotech
 
-This repository contains a curated selection of projects and algorithms developed during my advanced training in Python for Scientific Computing. As a **PhD in Biological Sciences**, I focus on bridging the gap between experimental research and computational modeling through efficient, modular, and scalable code.
+This repository showcases practical implementations of **scientific computing, data processing, and algorithmic efficiency**, with applications relevant to biotechnology and research environments.
 
-## 🚀 Key Modules
-
-### 01. Data Structures & Algorithms
-Focuses on computational efficiency and robust logic.
-* **Search Optimization:** Implementation of Binary Search (Iterative & Recursive) to handle large datasets.
-* **Stream Processing:** Real-time data monitoring using Python Generators (`yield`).
-* **Core Logic:** Robust error handling, sequence propagation models, and custom data structures (Queues/Stacks).
-
-### 02. Data Analysis & Wrangling
-Practical applications using real-world biological and urban datasets.
-* **Large-scale Analysis:** Processing and filtering of urban forestry datasets (50MB+) using **Pandas** and **NumPy**.
-* **Stochastic Simulations:** Random Walk models for molecular diffusion and Brownian motion visualization.
-* **Reporting:** Automated financial and logistics reporting via advanced CSV parsing.
-
-### 03. Capstone Project
-A comprehensive technical assessment integrating **Object-Oriented Programming (OOP)**, memory management, and algorithmic complexity analysis ($O(n)$).
-
-### 04. OOP Principles
-Clean code practices including:
-* Class inheritance and dunder methods.
-* Managing mutable state and avoiding common pitfalls in Python objects.
-
-## 🛠️ Technical Stack
-* **Core:** Python 3.x
-* **Libraries:** NumPy, Pandas, Matplotlib, Seaborn.
-* **Methodologies:** Modular Programming, Big O Notation, Data Cleaning, Stochastic Modeling.
+Developed as part of advanced training in Python for Scientific Computing, the focus is on building **efficient, modular, and scalable code** for handling scientific data.
 
 ---
-**Salomé Gastaldi, PhD** *Specialist in Biotechnology & Biophysics | Moving towards Biotech & Data Science in Spain.*
+
+## 🎯 Objective
+
+- Process and analyze large-scale datasets  
+- Implement efficient algorithms for scientific applications  
+- Build reproducible and structured data workflows  
+- Apply computational methods to biologically inspired problems  
+
+---
+
+## 📂 Repository Structure
+
+### 01. Data Structures & Algorithms
+
+Core implementations focused on performance and logic:
+
+- Binary Search (iterative and recursive)  
+- Custom data structures (queues, stacks)  
+- Sequence propagation models  
+- Error handling and robust logic  
+
+👉 **Why it matters:**  
+Efficient algorithms are critical when scaling biological data analysis.
+
+---
+
+### 02. Data Analysis & Wrangling
+
+Applications on real-world datasets:
+
+- Processing large datasets (50MB+) using **Pandas & NumPy**  
+- Data cleaning, filtering, and transformation  
+- CSV-based reporting workflows  
+
+👉 **Why it matters:**  
+These workflows resemble preprocessing steps in biotech and data science pipelines.
+
+---
+
+### 03. Stochastic Simulations
+
+- Random Walk models  
+- Brownian motion simulations  
+- Data visualization of stochastic processes  
+
+👉 **Why it matters:**  
+Useful for modeling molecular diffusion and probabilistic biological systems.
+
+---
+
+### 04. Capstone Project
+
+- Object-Oriented Programming (OOP)  
+- Memory management  
+- Algorithmic complexity analysis (O(n))  
+
+👉 **Why it matters:**  
+Combines performance, structure, and scalability in a single project.
+
+---
+
+### 05. OOP Principles
+
+- Class inheritance and dunder methods  
+- Managing mutable state  
+- Writing clean, maintainable code  
+
+👉 **Why it matters:**  
+Essential for collaborative and production-level codebases.
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.x  
+- NumPy, Pandas, Matplotlib  
+- Modular programming  
+- Data cleaning & transformation  
+- Stochastic modeling  
+
+---
+
+## 💼 Industry Relevance
+
+This repository reflects foundational skills required for:
+
+- Data processing in biotech and life sciences  
+- Preprocessing pipelines for machine learning models  
+- Handling experimental and simulation-derived datasets  
+- Supporting computational workflows in R&D environments  
+
+---
+
+## 🚀 Positioning
+
+Part of a broader profile focused on:
+
+**AI for Drug Discovery | Molecular Modeling | Scientific Data Pipelines**
+
+---
+
+👩‍🔬 Salomé Gastaldi, PhD  
